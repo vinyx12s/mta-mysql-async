@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<meta>
+    <info name="mysql-async" author="ViNyx" description="DataBase Connection to MySQL" version="1.0.0" />
+    
+
+
+    <!-- Specify dependencies -->
+    <dependency name="" />
+
+
+    <export function="getConnection" type="server" http="false" />
+
+    <!-- OOP -->
+
+    <oop>true</oop> 
+
+    <!-- Specify Files -->
+    <script src="config.lua" type="server" />
+    <script src="lib/Mysql.lua" type="server" />
+    <script src="client/main.lua" type="client" />
+</meta>
